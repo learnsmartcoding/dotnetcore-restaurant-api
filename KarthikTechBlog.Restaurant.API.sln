@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarthikTechBlog.Restaurant.API", "KarthikTechBlog.Restaurant.API\KarthikTechBlog.Restaurant.API.csproj", "{5419287D-E27B-46A9-911F-8680641AFE51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarthikTechBlog.Restaurant.Data", "KarthikTechBlog.Restaurant.Data\KarthikTechBlog.Restaurant.Data.csproj", "{FA25D545-0DD3-4E04-9233-5A6DCF73EA2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarthikTechBlog.Restaurant.Core", "KarthikTechBlog.Restaurant.Core\KarthikTechBlog.Restaurant.Core.csproj", "{E6B603FB-37EC-4B8E-B31A-4F64E943C347}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarthikTechBlog.Restaurant.CrossCutting", "KarthikTechBlog.Restaurant.CrossCutting\KarthikTechBlog.Restaurant.CrossCutting.csproj", "{A16A9706-BB9B-48A5-B653-7496AF456768}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarthikTechBlog.Restaurant.Service", "KarthikTechBlog.Restaurant.Service\KarthikTechBlog.Restaurant.Service.csproj", "{C266822E-2BDE-4725-935C-DEDB5A011AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5419287D-E27B-46A9-911F-8680641AFE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5419287D-E27B-46A9-911F-8680641AFE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5419287D-E27B-46A9-911F-8680641AFE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5419287D-E27B-46A9-911F-8680641AFE51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA25D545-0DD3-4E04-9233-5A6DCF73EA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA25D545-0DD3-4E04-9233-5A6DCF73EA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA25D545-0DD3-4E04-9233-5A6DCF73EA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA25D545-0DD3-4E04-9233-5A6DCF73EA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B603FB-37EC-4B8E-B31A-4F64E943C347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B603FB-37EC-4B8E-B31A-4F64E943C347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B603FB-37EC-4B8E-B31A-4F64E943C347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B603FB-37EC-4B8E-B31A-4F64E943C347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16A9706-BB9B-48A5-B653-7496AF456768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16A9706-BB9B-48A5-B653-7496AF456768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16A9706-BB9B-48A5-B653-7496AF456768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16A9706-BB9B-48A5-B653-7496AF456768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C266822E-2BDE-4725-935C-DEDB5A011AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C266822E-2BDE-4725-935C-DEDB5A011AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C266822E-2BDE-4725-935C-DEDB5A011AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C266822E-2BDE-4725-935C-DEDB5A011AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41F41ED4-935B-4BE9-87C7-39F9DAA65C57}
+	EndGlobalSection
+EndGlobal

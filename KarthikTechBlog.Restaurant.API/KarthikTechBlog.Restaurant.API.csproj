@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>b2f30e1b-edc7-4896-872a-287358d6ddb7</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/7ac2657c-0f3a-4071-8a5a-2304d227dc1a/resourceGroups/appservice-free-rg/providers/microsoft.insights/components/learnsmartcoding-restaurant</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+    <ProjectReference Include="..\KarthikTechBlog.Restaurant.CrossCutting\KarthikTechBlog.Restaurant.CrossCutting.csproj" />
+    <ProjectReference Include="..\KarthikTechBlog.Restaurant.Data\KarthikTechBlog.Restaurant.Data.csproj" />
+    <ProjectReference Include="..\KarthikTechBlog.Restaurant.Service\KarthikTechBlog.Restaurant.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.19.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.19.0" />
+
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />    
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="2.1.3" />
+    <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+    <PackageReference Include="Serilog.Sinks.ColoredConsole" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="5.3.0" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.4.1" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModel\Delete\" />
+  </ItemGroup>
+
+
+</Project>
